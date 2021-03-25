@@ -1,0 +1,473 @@
+@media (max-width: 1800px) {
+    .about-area:after {
+        right: 0px !important;
+    }
+    .about-area2:after {
+        right: 0;
+    }
+}
+
+@media (max-width: 1600px) {
+	.about-area:after {
+        right: 0 !important;
+        opacity: .1;
+    }
+    .about-area2:after {
+        right: -170px !important;
+    }
+    .slider-one-area .owl-nav{
+        display: none;
+    }
+}
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.slider-one-area .single-slide .content h1 {
+        font-size: 30px;
+    }
+    .slider-one-area .owl-nav{display: none;}
+    .header-top-area .header-top-left ul li {
+        margin-right: 4px;
+    }
+    .header-one-area .header-right ul li {
+        margin-left: 12px;
+    }
+    .header-top-area .header-top-left ul,
+    .header-one-area .main-menu nav ul {
+        text-align: center;
+    }
+
+    .header-one-area .header-right ul li a i {
+        font-size: 17px;
+    }
+    .blog-page-area .single-blog .content h3 a {
+        font-size: 18px;
+    }
+    .comments-area .comments-list ul li .comment-info {
+        width: 399px;
+    }
+    .comments-area .comments-list ul li:nth-child(2) .comment-info {
+        width: 299px;
+    }
+    .header-one-area.header-two-area .header-right ul li {
+        margin-left: 13px;
+    }
+    .project2-area .project-menu ul li {
+        padding: 10px 30px;
+    }
+    .shop-details-area .product-image .nav-tabs li {
+        width: 24%;
+    }
+    .sidebar-area .widget.widget_categories ul li a {
+        margin-right: 30px;
+    }
+    .sidebar-area .widget.widget_categories ul li span {
+        top: 10px;
+    }
+    .sidebar-area .widget.widget_tag_cloud .tagcloud a {
+        padding: 5px 7px;
+    }
+    .contact-page-area .single-contact {
+        padding: 30px 10px;
+    }
+    .counterup-area .counter-content .counter-inner-content .counter {
+        color: #fff;
+        position: relative;
+        font-size: 32px;
+        margin-bottom: 0px; 
+        padding-bottom: 0px; 
+    }
+    .counterup-area .counter-content .counter-inner-content p {
+        font-size: 16px;
+    }
+
+
+    
+}
+
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+    .header-right {
+        display: none;
+    }
+    .shop-area .left-topbar, .shop-area .right-topbar {
+        text-align: center;
+        margin: 5px 0;
+    }
+    .slider-one-area .owl-nav{display: none;}
+    .header-one-area .logo-area a img {
+        width: auto;
+        margin: auto;
+        display: block;
+    }
+    .header-one-area .header-right ul li {
+        display: inline-block;
+        margin: 15px;
+        position: relative;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        transition: 0.5s;
+    }
+    .slider-one-area .single-slide .content h1 {
+        font-size: 22px !important;
+    }
+    .slider-one-area .single-slide .content p {
+        padding: 15px 0;
+        margin: 0 0 20px !important;
+    }
+    
+    .header-top-area .header-top-left ul,
+    .header-one-area .main-menu nav ul,
+    .header-top-area .header-top-right ul {
+        text-align: center;
+    }
+    .header-one-area .logo-area {
+        padding: 0 0 15px;
+    }    
+    .header-one-area .header-right ul {
+        text-align: center;
+    }
+    .about-image{
+        margin-bottom: 30px;
+    }
+
+    .call-to-action-area .content h3 {
+        margin: 20px 0;
+    }
+    .call-to-action-area .button {
+        display: block;
+        text-align: center;
+    }
+
+    /* stellarnav css responsive start */
+    .header-one-area .stellarnav.mobile.right > ul {
+        right: 0;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        z-index: 9;
+    }
+    .header-one-area .stellarnav ul li {
+        display: block !important;
+    }
+    .header-one-area .stellarnav ul li a{        
+        color: #000 !important;
+        padding: 20px !important;
+    }
+    .stellarnav.mobile.light ul {
+        text-align: center !important;
+    }
+    .header-one-area .stellarnav ul li ul ul {
+        top: 0;
+        right: 0px !important;
+        left: inherit;
+    }
+    .header-one-area .stellarnav ul li ul ul li {
+        border-bottom: 1px solid #ddd;
+    }
+    .header-one-area .stellarnav.mobile {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .header-one-area .stellarnav.mobile.right .close-menu, .header-one-area .stellarnav.mobile.left .close-menu {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    /* stellarnav css responsive end */
+    .partner-area .partner-slider .single-partner img {
+        margin: auto;
+    }
+    .footer-area .widget {
+        margin: 15px 0;
+    }
+    .footer-area:after {
+        background-position: left bottom;
+    }
+    .slider-two-area .single-slide .content h1 {
+        font-size: 30px;
+    }
+    .newsletter-area .news-letter-bg img {
+        height: 180px;
+    }
+    .breadcumb-area {
+        padding: 100px 0;
+    }
+    .services-details-area .services-contact{
+        margin-bottom: 30px;
+    }
+    .comments-area .comments-list ul li .comment-info {
+        width: 450px;
+    }
+    .comments-area .comments-list ul li:nth-child(2) .comment-info {
+        width: 350px;
+    }
+    
+    .contact-page-area .single-contact {
+        margin: 15px 0;
+    }
+    .contact-page-area .single-contact {
+        padding: 30px;
+    }
+    .contact-page-area .single-contact .icon i {
+        position: relative;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .contact-page-area .single-contact .content {
+        margin-left: 0;
+        text-align: center;
+    }
+    .call-to-action-area .button a {
+        display: inline-block;
+    }
+
+    .project2-area .project-menu ul li {
+        padding: 10px 10px;
+    }
+    .newsletter-area .news-letter .text h3 {
+        margin: 0 0 20px;
+    }
+    .about-area2:after {
+        right: -300px;
+        bottom: 30px;
+    }
+    .project-details-area .project-contact {
+        margin-bottom: 30px;
+    }
+    .shop-details-area .product-image .nav-tabs li {
+        width: 33%;
+        display: inline-block;
+        margin: 0 0px 15px 0;
+    }
+    .shop-details-area .product-image .nav-tabs li a {
+        display: block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    .header-one-area.header-two-area,
+    .header-one-area {
+        background: #000 !important;
+        border-bottom: 0px solid #24211a;
+        position: relative;
+    }
+    .section {
+        padding: 60px 0;
+    }
+    .section1 {
+        padding: 50px 0;
+    }
+    .section2 {
+        padding: 60px 0 45px;
+    }
+    .main-menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    .header-one-area.stick .logo-area {
+        padding: 30px 0;
+    }
+    .counter-inner-content {
+        padding: 20px 0;
+    }
+    .project2-area .project-menu ul,
+    .project2-area .project-menu ul li{
+        border-radius: 0;
+    }
+    .counterup-area .counter-content{
+        margin: 15px 0;
+    }
+
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .slider-one-area .single-slide,
+    .slider-two-area .single-slide {
+        height: 60vh;
+        background-position: 0 0;
+    }
+    .slider-one-area .single-slide .content {
+        text-align: center;
+    }
+    .slider-one-area .single-slide .content h1 {
+        font-size: 20px;
+    }
+    .header-one-area .logo-area {
+        padding: 15px 0 30px;
+    }
+    .slider-one-area .single-slide .content p{
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    .about-area2:after {
+        right: -450px !important;
+    }
+    .call-to-action-area .content h3 {
+        font-size: 24px;
+    }
+    .header-one-area .header-right ul li:hover .mini-cart-area {
+        right: -160px !important;
+    }
+    .project-area .single-project .project-image img,
+    .project2-area .single-project .project-image img{
+        width: 100%;
+    }
+    .testimonial-area:after {
+        display: none;
+    }
+    .blog-details-page-area .single-blog-area .blog-share .tag, .blog-details-page-area .single-blog-area .blog-share .share {
+        height: auto;
+    }
+    .pagination-area .pagination-list ul li {
+        display: inline-block;
+        margin: 0px;
+    }
+    .comments-area .comments-list ul li .comment-info {
+        width: 350px;
+    }
+    .comments-area .comments-list ul li:nth-child(2) .comment-info {
+        width: 350px;
+    }
+    .comments-area .comments-list ul li:nth-child(2) {
+        margin-left: 0;
+    }
+    
+    .comments-area .comments-list ul li .author-image {
+        margin: 0 0 30px;
+        float: inherit;
+        display: block;
+    }
+    .comments-area .comments-list ul li{
+        text-align: center;
+    }
+    .comments-area .comments-list ul li .author-image i {
+        margin: auto;
+    }
+    .comments-area .comments-list ul li .comment-info {
+        width: 100%;
+    }
+    .comments-area .comments-list ul li:nth-child(2) .comment-info {
+        width: 100%;
+    }
+    .project2-area .project-menu ul li {
+        padding: 10px 30px;
+        margin: 5px 0;
+    }
+    .about-area2:after {
+        right: -400px;
+        bottom: 30px;
+    }
+    .shop-area .left-topbar,
+    .shop-area .right-topbar,
+    .shop-details-area .product-description .tab-content {
+        text-align: center;
+        margin: 5px 0;
+    }
+    .shop-details-area .product-description .nav-tabs li {
+        margin: 9px auto;
+    }
+
+    .project2-area .single-project:hover .overley .project-info {
+        top: 60%;
+    }
+    .breadcumb-area {
+        padding: 50px 0;
+    }
+    .breadcumb-area h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .slider-two-area .single-slide .content h1 {
+        font-size: 24px;
+    }
+    
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .services-area .single-servives .content {
+        padding: 20px;
+    }
+
+    .about-area:after {
+        width: 200px;
+    }
+
+
+    .newsletter-area .news-letter .form-area button {
+        width: 38%;
+    }
+    .slider-one-area .single-slide .content {
+        text-align: center;
+    }
+    .slider-one-area .single-slide .content h1 {
+        font-size: 20px;
+    }
+    .header-one-area .logo-area {
+        padding: 15px 0;
+    }
+
+    .slider-one-area .single-slide .content p{
+        padding: 15px 0;
+        margin: 0;
+        font-size: 14px;
+    }
+    .slider-one-area .single-slide .content .button-area ul li {
+        margin: 10px 0;
+    }
+    .slider-one-area .single-slide .content .button-area ul li a {
+        font-size: 12px;
+    }
+    .blog-page-area .single-blog .content h3 a {
+        font-size: 18px;
+    }
+    .breadcumb-area {
+        padding: 50px 0;
+    }
+    .breadcumb-area h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .blog-details-page-area .single-blog-area .content h2 a {
+        font-size: 20px;
+    }
+    .sidebar-area .widget.recent-post-widget .popular-post-widget ul li .post-image {
+        width: 100%;
+        float: inherit;
+        margin: 0 0 020px;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+        display: block;
+    }
+    .about-area2:after {
+        right: -560px !important;
+    }
+    .section-title h2 {
+        font-size: 24px;
+    }
+ 
+    .shop-details-area .product-details h3 {
+        font-size: 24px !important;
+    }
+    .shop-details-area .product-details .product-cart ul li.add-cart a {
+        padding: 5px 5px;
+    }
+    .project2-area .project-menu ul li,
+    .project-area .project-menu ul li {
+        display: block;
+    }
+    .project2-area .project-menu ul{
+        width: 100%;
+    }
+    .pagination-area .pagination-list ul li a {
+        padding: 10px 17px;
+    }
+}
+
+@media (max-width: 320px) {
+	
+}
