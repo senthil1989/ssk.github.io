@@ -118,7 +118,7 @@
     .header-top-area .header-top-left ul,
     .header-one-area .main-menu nav ul,
     .header-top-area .header-top-right ul {
-        text-align: center;
+        text-align: left;
     }
     .header-one-area .logo-area {
         padding: 0 0 15px;
